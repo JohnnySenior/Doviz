@@ -1,7 +1,32 @@
-﻿Console.WriteLine("If you want to buy gold, this app can convert your money to gold.");
+﻿Console.WriteLine();
+Console.WriteLine("This program will convert your amount of budget as follows:");
+Console.WriteLine("1. Korean (Won) => Gold");
+Console.WriteLine("2. Gold => Korean (Won)");
+Console.WriteLine();
+Console.Write("Choose operation that you need: ");
 
-Console.Write("Enter your budjet (Korean Won): ");
-double money = double.Parse(Console.ReadLine());
-const double priceGoldOneGramm = 79790.40; 
+string stringOperation = Console.ReadLine();
+int operation = int.Parse(stringOperation);
 
-Console.WriteLine($"You can buy {money / priceGoldOneGramm} gr gold");
+const double priceGoldOneGramm = 79790.40;
+
+if (operation == 1)
+{
+    Console.Write("Enter your budjet (Korean Won): ");
+    string stringMoney = Console.ReadLine();
+    double money = int.Parse(stringMoney);
+
+    Console.WriteLine($"You can buy {money / priceGoldOneGramm} gr gold");
+}
+else if (operation == 2)
+{
+    Console.Write("Enter your budjet (Gold): ");
+    string stringGold = Console.ReadLine();
+    double gold = int.Parse(stringGold);
+
+    Console.WriteLine($"You can buy {gold * priceGoldOneGramm} Won");
+}
+else
+{
+    Console.WriteLine("Entered wrong operation, try again!!!");
+}
