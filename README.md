@@ -4,17 +4,17 @@ Your ultimate conversion tool
 
     If you want to buy gold, this app can convert your money to gold.
 
-![Alt text](image.png)
+![Alt text](./Assets/image.png)
 
 I have used basic code and arithmetic operations:
 
 * Console input/output
 
-    ![Alt text](image-1.png)
+    ![Alt text](./Assets/image-1.png)
 
 * Arithmetic operations and `string` interpolation
 
-    ![Alt text](image-2.png)
+    ![Alt text](./Assets/image-2.png)
 
 If you want to run my code in your local computer, you can clone my code.
 
