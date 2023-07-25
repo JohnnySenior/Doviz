@@ -10,23 +10,27 @@ int operation = int.Parse(stringOperation);
 
 const double priceGoldOneGramm = 79790.40;
 
-if (operation == 1)
+switch (operation)
 {
-    Console.Write("Enter your budjet (Korean Won): ");
-    string stringMoney = Console.ReadLine();
-    double money = int.Parse(stringMoney);
+    case 1:
+        Console.Write("Enter your budjet (Korean Won): ");
+        string stringMoney = Console.ReadLine();
+        double money = int.Parse(stringMoney);
 
-    Console.WriteLine($"You can buy {money / priceGoldOneGramm} gr gold");
-}
-else if (operation == 2)
-{
-    Console.Write("Enter your budjet (Gold): ");
-    string stringGold = Console.ReadLine();
-    double gold = int.Parse(stringGold);
+        Console.WriteLine($"You can buy {money / priceGoldOneGramm} gr gold");
+        break;
 
-    Console.WriteLine($"You can buy {gold * priceGoldOneGramm} Won");
+    case 2:
+        Console.Write("Enter your budjet (Gold): ");
+        string stringGold = Console.ReadLine();
+        double gold = int.Parse(stringGold);
+
+        Console.WriteLine($"You can buy {gold * priceGoldOneGramm} Won");
+        break;
+
+    default:
+        Console.WriteLine("Entered wrong operation, try again!!!");
+        break;
 }
-else
-{
-    Console.WriteLine("Entered wrong operation, try again!!!");
-}
+
+
