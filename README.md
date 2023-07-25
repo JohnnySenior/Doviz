@@ -32,30 +32,28 @@ Click here for instruction **[video](https://www.loom.com/share/9cebefe04b8b40f0
 
 ## Release Notes
 
-### *V1.0*
+### V1.0
 
-We are excited to announce the release of version 1.0 of our Doviz App! This release introduces basic convert operations.  
+We are excited to announce the release of version 1.0 of our Doviz App! This release introduces basic convert operations.
 
-### Features Added:
+Features Added:
 
 * You can choose option that you need:
-    1. If you want to buy gold, this app can convert your money to gold.
+* If you want to buy gold, this app can convert your money to gold.
 
 ### Path to Version 1.0
 
-Click green word if you want to go *[Version 1.0](https://github.com/JohnnySenior/Doviz/tree/releases/v1.0)*
+Click green word if you want to go **[Version 1.0](https://github.com/JohnnySenior/Doviz/tree/releases/v2.0)**
 
-### *V2.0*
+### V2.0
 
 We are excited to announce the release of version 2.0 of our Doviz App! This release introduces basic convert operations.
 
-#### Features Added:
+Features Added:
 
 * Bug fixes and other minor improvements.
-* Add `switch` statement.
-  1. If you want to buy gold, this app can convert your money to gold.
-  2. If you want to convert your gold to money, this app help you.
-
-## Path to Version 2.0
-
-Click green word if you want to go *[Version 2.0](https://github.com/JohnnySenior/Doviz/tree/releases/v2.0)*
+* Add switch statement.
+    * If you want to buy gold, this app can convert your money to gold.
+    * If you want to convert your gold to money, this app help you.
+    
+### Note: You are in **_Version 2.0_** now.
