@@ -24,7 +24,7 @@ I have used basic code and arithmetic operations:
 
 ### Result:
 
-![gif](./Assets/Animation.gif)
+![gif](./Assets/Animation-1.gif)
 
 If you want to run my code in your local computer, you can clone my code.
 
@@ -43,7 +43,7 @@ Features Added:
 
 ### Path to Version 1.0
 
-Click green word if you want to go **[Version 1.0](https://github.com/JohnnySenior/Doviz/tree/releases/v2.0)**
+Click green word if you want to go **[Version 1.0](https://github.com/JohnnySenior/Doviz/tree/releases/v1.0)**
 
 ### V2.0
 
@@ -55,5 +55,19 @@ Features Added:
 * Add switch statement.
     * If you want to buy gold, this app can convert your money to gold.
     * If you want to convert your gold to money, this app help you.
-    
-### Note: You are in **_Version 2.0_** now.
+
+### Path to Version 2.0
+
+Click green word if you want to go **[Version 2.0](https://github.com/JohnnySenior/Doviz/tree/releases/v2.0)**
+
+### v3.0
+
+We are excited to announce the release of version 3.0 of our Doviz App! This release introduces more featured convert operations.
+
+Features Added:
+
+* Bug fixes and other minor improvements.
+* Add simple and comfortable *menu*.
+* Add `do while` Loop for cycle operation.
+
+### Note: You are in **_Version 3.0_** now.
