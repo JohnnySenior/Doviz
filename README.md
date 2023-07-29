@@ -12,19 +12,27 @@ I have used basic code and arithmetic operations:
 
 * Console input/output
 
-    ![Alt text](./Assets/image-1.png)
+    ![Alt text](./Assets/console.png)
 
 * Arithmetic operations and `string` interpolation
-
-    ![Alt text](./Assets/image-2.png)
+    1. ![Alt text](./Assets/arith1.png)
+    2. ![Alt text](./Assets/arith2.png)
 
 * `switch` statement
 
-    ![Alt text](./Assets/image-3.png)
+    ![Alt text](./Assets/switch.png)
+
+* `do while` loop
+
+    ![image](./Assets/do-while.png)
+
+* `try catch` operation
+
+    ![image](./Assets/try.png)
 
 ### Result:
 
-![gif](./Assets/Animation-1.gif)
+![gif](./Assets/Animation.gif)
 
 If you want to run my code in your local computer, you can clone my code.
 
@@ -70,4 +78,16 @@ Features Added:
 * Add simple and comfortable *menu*.
 * Add `do while` Loop for cycle operation.
 
-### Note: You are in **_Version 3.0_** now.
+Click green word if you want to go **[Version 3.0](https://github.com/JohnnySenior/Doviz/tree/releases/v3.0)**
+
+### v3.1
+
+We are excited to announce the release of version 3.1 of our Doviz App! This release introduces more featured convert operations and `try catch` operation.
+
+Features Added:
+
+* Add `try catch` operation.
+    * Format Exception: if you enter wrong data type value. App will shows you.
+    * Overflow Exception: if you enter too large value or too small, you can see overflow exception
+
+### Note: You are in **_Version 3.1_** now.
